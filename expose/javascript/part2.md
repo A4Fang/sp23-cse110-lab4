@@ -36,6 +36,8 @@
  15.  The difference between == and === is that putting an === does not convert the type of the variable while == does and compares it.
  16.  Refer to [this file](part2-question16.js)
  17.  The result will be an array whose values in each index are doubled. First, we declare the array we want to return and then the for loop iterates through the array given. With each value in array, we use the callback function (doSomething) which multiplies the variable by 2 and that value is pushed into the array we want to return. We do this for each value in array.
+ 18.  Refer to [this file](part2-question18.js)
+ 19.  The output of the code will immediately return 1,4,3 in that order and 2 one second later.
 
 
 
