@@ -35,8 +35,7 @@
       6.   true === Boolean(2): true, the rule of Boolean conversion is any value that are intuitively "empty" (0, null, undefined, NaN) are false. Otherwise, true.
  15.  The difference between == and === is that putting an === does not convert the type of the variable while == does and compares it.
  16.  Refer to [this file](part2-question16.js)
- 17.  
- 
+ 17.  The result will be an array whose values in each index are doubled. First, we declare the array we want to return and then the for loop iterates through the array given. With each value in array, we use the callback function (doSomething) which multiplies the variable by 2 and that value is pushed into the array we want to return. We do this for each value in array.
 
 
 
