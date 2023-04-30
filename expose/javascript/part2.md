@@ -11,3 +11,11 @@
 9. The function will throw a ReferenceError because i was declared in the for block but the print statement is called outside the scope of it.
 10. Line 12 will print 3 because length was declared in the function block which is where the print statement is called as well. We stored the length of the array given in length which is 3 and did not attempt to change the value of length.
 11. The function will still return the discounted array, once again print nothing.
+12. 
+| Part | Answer |
+| ----------- | ----------- |
+| A | student.name |
+| B | student["Grad Year"] |
+| C | student.greeting(); |
+| D | student["Favorite Teacher"].name |
+| E | student.courseLoad[0] |
