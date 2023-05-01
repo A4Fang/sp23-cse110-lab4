@@ -1,0 +1,2 @@
+1. The bug of the function is that it treats our input as a string instead of an integer.
+2. To fix it, I would use the parseInt command to make sure that num1 and num2 have the integer data type. I can also implement safety checks such as checking if num1 or num2 is NaN.
